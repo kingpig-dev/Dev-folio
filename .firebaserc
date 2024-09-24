@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "khoa-devfolio",
+    "hosting": "khoa-devfolio"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
