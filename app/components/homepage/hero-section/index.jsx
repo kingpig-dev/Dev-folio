@@ -4,10 +4,10 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
-import { MdDownload } from "react-icons/md";
+// import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
+// import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-import { SiLeetcode } from "react-icons/si";
+// import { SiLeetcode } from "react-icons/si";
 
 function HeroSection() {
   return (
@@ -101,7 +101,7 @@ function HeroSection() {
             <code className="font-mono text-xs md:text-sm lg:text-base">
               <div className="blink">
                 <span className="mr-2 text-pink-500">const</span>
-                <span className="mr-2 text-white">coder</span>
+                <span className="mr-2 text-white">engineer</span>
                 <span className="mr-2 text-pink-500">=</span>
                 <span className="text-gray-400">{'{'}</span>
               </div>
@@ -114,13 +114,13 @@ function HeroSection() {
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">Frontend Technologies</span>
+                <span className="text-amber-300">High-tech manufacturing</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Backend Technologies</span>
+                <span className="text-amber-300">Healthcare</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Seasoned Electronical Engineer</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">AI Technologies</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Mobile Technologies</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Blockchain Experience</span>
                 <span className="text-gray-400">{"', '"}</span>
